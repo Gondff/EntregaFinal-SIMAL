@@ -1,0 +1,252 @@
+/*Variables*/
+/*Reset*/
+/*reset*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Source+Sans+Pro:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif; }
+
+/* Tipografias */
+/* Fuente externa */
+/*Secciones*/
+/* Acomodar Header , logo mas barra de nvegacion */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #666666, grey);
+  flex-wrap: wrap;
+  min-height: 20vh; }
+  .header img {
+    width: 100px; }
+
+/* Menu hamburguesa */
+.nav-link {
+  color: white;
+  font-weight: bold;
+  padding-right: 9px; }
+  .nav-link a:hover {
+    color: black; }
+  .nav-link a .navbar-toggler {
+    border: none !important; }
+    .nav-link a .navbar-toggler:focus {
+      box-shadow: none !important; }
+
+.nav-item a:hover {
+  color: black; }
+
+@media (max-width: 700px) {
+  .header {
+    justify-content: center; } }
+
+/* Main */
+/* Titulos y parrafo */
+h1 {
+  text-align: center;
+  font-family: 'Rubik', sans-serif; }
+
+p {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.main {
+  min-height: 70vh;
+  background-image: linear-gradient(to bottom, #5f5f5f, #cccccc); }
+  .main .banner img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw; }
+  .main .titulo-principal {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .main .Parrafo-Inicial {
+    text-align: center;
+    font-size: medium; }
+  .main .imagenes-centrales {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap; }
+    .main .imagenes-centrales img {
+      width: 300px; }
+
+@media (max-width: 1080px) {
+  .banner {
+    display: inline-block; } }
+
+/* Pagina Productos */
+.venta-productos {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-left: 10px; }
+  .venta-productos .card {
+    width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    cursor: default;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2); }
+    .venta-productos .card:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.919);
+      transform: translateY(-5%); }
+    .venta-productos .card img {
+      background-color: #00ff6ab4;
+      width: 100%;
+      height: 100%;
+      padding: 5px;
+      object-fit: contain; }
+    .venta-productos .card .card-text {
+      text-align: center; }
+
+/* pagina clases */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-areas: "horaios Lunes Martes Miercoles Jueves Viernes Sabado" "10a11 boxeo boxeo boxeo boxeo boxeo boxeo" "11a12 boxeo boxeo boxeo boxeo boxeo" "15a16 boxeo boxeo boxeo boxeo boxeo" "16a17 boxeo boxeo boxeo boxeo boxeo" "18a19 boxeo boxeo boxeo boxeo boxeo" "19a20 boxeo boxeo boxeo boxeo boxeo" "20a21 boxeo boxeo boxeo boxeo boxeo" "21a22 boxeo boxeo boxeo boxeo boxeo";
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  width: 600px;
+  padding-bottom: 10px;
+  margin: auto;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.362); }
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(4, 2fr);
+  grid-template-areas: "horaios LunesAViernes Sabado" "10a11 boxeo boxeo" "11a12 boxeo" "15a22 boxeo";
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  width: 300px;
+  padding-bottom: 10px;
+  margin: auto;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.362); }
+
+.diasyhorarios {
+  display: flex;
+  height: 60px;
+  width: 80px;
+  color: white;
+  border: 1px solid black;
+  background-color: #00ff6ab4;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+  margin: 2px; }
+
+@media (max-width: 700px) {
+  .grid-container {
+    display: none; } }
+
+@media (min-width: 699px) {
+  .grid-container2 {
+    display: none; } }
+
+/* Pagina Contacto */
+.falso-body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .falso-body .p-contacto {
+    display: flex;
+    font-size: large;
+    height: 400px;
+    width: 400px;
+    color: black; }
+  .falso-body .form {
+    padding: 50px 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px; }
+    .falso-body .form .grupo {
+      display: flex;
+      flex-direction: column;
+      text-align: left; }
+    .falso-body .form .contactanos {
+      color: white;
+      font: 30px;
+      font-weight: bold; }
+    .falso-body .form .etiquetas {
+      font-size: 15px;
+      margin-bottom: 15px; }
+    .falso-body .form .inputs {
+      padding: 17px 25px;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      outline: none;
+      background-color: white; }
+
+@media (max-width: 700px) {
+  .falso-body .p-contacto {
+    display: none; } }
+
+/* Pagina Quienes Somos */
+.h1-profesores {
+  padding: 15px;
+  color: white; }
+
+.profesores img {
+  margin: 50px;
+  width: 300px; }
+
+.profesores .alan-mariano {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  justify-content: space-around; }
+  .profesores .alan-mariano .parrafo-profesores h2 {
+    padding-bottom: 25px;
+    min-width: 60px; }
+
+.quienes-somos {
+  text-align: center;
+  color: black;
+  padding: 20px; }
+  .quienes-somos .negrita {
+    font-weight: bold;
+    font-size: large; }
+
+/* Mobile last */
+@media (max-width: 1050px) {
+  .alan-mariano {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #586963;
+  min-height: 10vh; }
+  .footer img {
+    width: 60px; }
+  .footer .redes {
+    display: flex;
+    width: 25vw;
+    justify-content: space-evenly;
+    margin-top: 3vh; }
+  .footer .parrafo-final {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 2vh; }

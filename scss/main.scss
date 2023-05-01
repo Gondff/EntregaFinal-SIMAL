@@ -1,0 +1,18 @@
+/*Variables*/
+@import './utilities/colors.scss';
+
+/*Reset*/
+@import './utilities/global';
+
+
+/*Secciones*/
+@import './sections/header';
+@import './sections/index';
+@import './sections/productos';
+@import './sections/clases';
+@import './sections/contacto';
+@import './sections/quienes-somos';
+
+
+
+@import './sections/footer';
