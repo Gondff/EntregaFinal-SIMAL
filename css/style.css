@@ -13,6 +13,22 @@ body {
 
 /* Tipografias */
 /* Fuente externa */
+/*Extend*/
+.diasyhorarios, .grid-style {
+  display: flex;
+  height: 60px;
+  width: 80px;
+  color: white;
+  border: 1px solid black;
+  background-color: #00ff6ab4;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+  margin: 2px; }
+
+/*Mixin*/
 /*Secciones*/
 /* Acomodar Header , logo mas barra de nvegacion */
 .header {
@@ -134,20 +150,6 @@ p {
   padding: 10px 0 10px 0;
   margin: auto;
   box-shadow: 0px 1px 10px #0000005c; }
-
-.diasyhorarios {
-  display: flex;
-  height: 60px;
-  width: 80px;
-  color: white;
-  border: 1px solid black;
-  background-color: #00ff6ab4;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  align-content: stretch;
-  justify-content: center;
-  margin: 2px; }
 
 @media (max-width: 700px) {
   .grid-container {

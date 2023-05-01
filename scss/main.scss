@@ -3,7 +3,7 @@
 
 /*Reset*/
 @import './utilities/global';
-@import './utilities/mixin';
+@import './utilities/extend-y-mixin';
 
 /*Secciones*/
 @import './sections/header';
@@ -12,7 +12,5 @@
 @import './sections/clases';
 @import './sections/contacto';
 @import './sections/quienes-somos';
-
-
 
 @import './sections/footer';
