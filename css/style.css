@@ -95,9 +95,9 @@ p {
     background-color: white;
     border-radius: 8px;
     cursor: default;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0px 1px 10px #00000033; }
     .venta-productos .card:hover {
-      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.919);
+      box-shadow: 5px 5px 20px #000000ea;
       transform: translateY(-5%); }
     .venta-productos .card img {
       background-color: #00ff6ab4;
@@ -118,7 +118,7 @@ p {
   align-items: center;
   justify-items: center;
   width: 600px;
-  padding-bottom: 10px;
+  padding: 5px 0 5px 0;
   margin: auto;
   box-shadow: 0px 1px 10px #0000005c; }
 
@@ -131,7 +131,7 @@ p {
   align-items: center;
   justify-items: center;
   width: 300px;
-  padding-bottom: 10px;
+  padding: 10px 0 10px 0;
   margin: auto;
   box-shadow: 0px 1px 10px #0000005c; }
 

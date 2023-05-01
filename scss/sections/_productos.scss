@@ -12,9 +12,9 @@
         background-color: white;
         border-radius: 8px;
         cursor: default;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 1px 10px #00000033;
         &:hover{
-            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.919);
+            box-shadow: 5px 5px 20px #000000ea;
             transform: translateY(-5%)
         }
         img{

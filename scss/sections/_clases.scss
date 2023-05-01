@@ -14,13 +14,7 @@
         "20a21 boxeo boxeo boxeo boxeo boxeo"
         "21a22 boxeo boxeo boxeo boxeo boxeo"
     ;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
-    width: 600px;
-    padding-bottom: 10px;
-    margin: auto;
-    box-shadow: 0px 1px 10px $sombreado-clases;
+    @include contenedores(600px, 5px 0 5px 0);
 }
 
 .grid-container2{
@@ -33,13 +27,7 @@
         "11a12 boxeo"
         "15a22 boxeo"
     ;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
-    width: 300px;
-    padding-bottom: 10px;
-    margin: auto;
-    box-shadow: 0px 1px 10px $sombreado-clases;
+    @include contenedores(300px, 10px 0 10px 0);
 }
 
 .diasyhorarios {

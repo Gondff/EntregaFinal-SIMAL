@@ -1,0 +1,9 @@
+@mixin contenedores($ancho, $separacion){
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    width: $ancho;
+    padding: $separacion;
+    margin: auto;
+    box-shadow: 0px 1px 10px $sombreado-clases;
+}
