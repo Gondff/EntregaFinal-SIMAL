@@ -3,6 +3,7 @@
 .venta-productos {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     padding-top: 15px;
     padding-left: 10px;
     .card {
