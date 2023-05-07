@@ -8,13 +8,13 @@
         width: 60px;
     
     }
-    .redes {
+    &__redes {
         display: flex;
         width: 25vw;
         justify-content: space-evenly;
         margin-top: 3vh;
     }
-    .parrafo-final {
+    &__parrafo-final {
         display: flex;
         justify-content: center;
         color: white;

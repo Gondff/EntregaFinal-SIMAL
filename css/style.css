@@ -245,12 +245,12 @@ p {
   min-height: 10vh; }
   .footer img {
     width: 60px; }
-  .footer .redes {
+  .footer__redes {
     display: flex;
     width: 25vw;
     justify-content: space-evenly;
     margin-top: 3vh; }
-  .footer .parrafo-final {
+  .footer__parrafo-final {
     display: flex;
     justify-content: center;
     color: white;
