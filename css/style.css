@@ -166,7 +166,8 @@ p {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  padding-bottom: 10px; }
   .falso-body .p-contacto {
     display: flex;
     font-size: large;
